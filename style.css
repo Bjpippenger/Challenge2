@@ -41,11 +41,15 @@ body {
 }
 
 .largerlink {
-  font-size: 30px;
+  font-size: 38px;
   padding: 10px 20px;
 }
 
 #home {
   size: auto;
 
+}
+
+.tel {
+  font-size: 40px;
 }

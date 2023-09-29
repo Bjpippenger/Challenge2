@@ -8,7 +8,6 @@ body {
   background-color: bisque;
 }
 
-
 .box {
   border: 2px solid red;
   padding: 20px;
@@ -20,19 +19,19 @@ body {
 }
 
 .box h2 {
-    font-family: 'Pirata One', cursive;
-    font-size: 50px;
+  font-family: "Pirata One", cursive;
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
 .box p {
-    font-family: 'Pirata One', cursive;
-    font-size: 30px;
+  font-family: "Pirata One", cursive;
+  font-size: 30px;
   color: rgb(7, 7, 7);
 }
 
 .box h1 {
-    font-family: 'Pirata One', cursive;
-    font-size: 60px;
-    letter-spacing: 10px;
+  font-family: "Pirata One", cursive;
+  font-size: 60px;
+  letter-spacing: 10px;
 }

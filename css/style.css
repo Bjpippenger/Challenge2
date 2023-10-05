@@ -53,3 +53,8 @@ body {
 .phone {
   font-size: 40px;
 }
+
+#portfolio {
+  font-size: 100px;
+  letter-spacing: 20px;
+}

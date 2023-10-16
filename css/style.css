@@ -1,60 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lobster&family=Pirata+One&family=Qwigley&display=swap');
+
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  background-color: bisque;
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .box {
-  border: 2px solid red;
-  padding: 20px;
-  margin: 20px;
-  background-color: salmon;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  text-align: center;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+    background-color: salmon;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    flex-basis: calc(50% - 40px);
 }
 
 .box h2 {
-  font-family: "Pirata One", cursive;
-  font-size: 50px;
-  margin-bottom: 10px;
+    font-family: "Pirata One", cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .box p {
-  font-family: "Pirata One", cursive;
-  font-size: 45px;
-  color: rgb(7, 7, 7);
+    font-family: "Pirata One", cursive;
+    font-size: 45px;
+    color: rgb(7, 7, 7);
 }
 
 .box h1 {
-  font-family: "Pirata One", cursive;
-  font-size: 60px;
-  letter-spacing: 10px;
+    font-family: "Pirata One", cursive;
+    font-size: 60px;
+    letter-spacing: 10px;
 }
 
 #yodaimage {
-  width: 50%;
+    width: 50%;
 }
 
 .largerlink {
-  font-size: 38px;
-  padding: 10px 20px;
-}
-
-#home {
-  size: auto;
-
+    font-size: 38px;
+    padding:0%
 }
 
 .phone {
   font-size: 40px;
 }
 
-#portfolio {
-  font-size: 100px;
-  letter-spacing: 20px;
+ul {
+  list-style: none;
 }
